@@ -11,17 +11,17 @@
       "resizeMode": "contain",
       "backgroundColor": "#0B0F1A"
     },
+    "plugins": ["expo-updates"],
     "ios": {
-      "bundleIdentifier": "com.nfd.rebornfuel",
-      "supportsTablet": true,
-      "infoPlist": {
-        "NSCameraUsageDescription": "האפליקציה עשויה לבקש מצלמה להעלאת תמונות/סריקה.",
-        "NSMicrophoneUsageDescription": "האפליקציה עשויה לבקש מיקרופון להקלטות.",
-        "NSPhotoLibraryAddUsageDescription": "שמירת תמונות לספריית התמונות."
-      }
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nfd.rebornfuel"
     },
-    "plugins": [
-      "expo-updates"
-    ]
+    "android": {
+      "package": "com.nfd.rebornfuel",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0B0F1A"
+      }
+    }
   }
 }
